@@ -1,0 +1,98 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+.insta_feed_single_sk {
+	width: 33%;
+	float: left; 
+/*	border: 2px solid #FFF;	 */
+	overflow: hidden;
+	cursor: pointer;
+/*	margin: 1%; */
+
+    -webkit-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -kthtml-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.insta_feed_single_sk.w2 {
+	width: 50%;
+}
+
+
+
+.insta_feed_single_sk:hover {
+	border-radius: 10%;
+}
+
+.insta_feed_sk_popup {
+	display: none;
+  overflow: auto;
+  z-index: 100;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #FFF;
+  color: #333;
+  border-radius: 10px;
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  border: 5px solid #eee;
+  overflow: hidden;
+    -webkit-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -kthtml-transition: all 300ms linear;
+    transition: all 300ms linear;
+
+}
+
+
+.insta_feed_sk_popup > a {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 12;
+    background-color: #FFF;
+    width: 25px;
+    height: 25px;
+    color: #ccc;
+    font-size: 20px;
+}
+
+
+.insta_feed_sk_img_wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.insta_feed_sk_img_wrapper img{
+    position: relative;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 5px #000;
+    -moz-box-shadow: 0px 0px#000;
+    -webkit-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -kthtml-transition: all 300ms linear;
+    transition: all 300ms linear; 5px #000;
+    box-shadow: 0px 0px 5px 
+}
+
+.transparent{
+	opacity: 0.4;
+}
+
