@@ -74,7 +74,6 @@ class Instagram_Feed_Sk_Public {
 		 */
 
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/instagram-feed-sk-public.css', array(), $this->version, 'all' );
-		wp_enqueue_style( "colorbox", plugin_dir_url( __FILE__ ) . 'css/featherlight.min.css', array(), $this->version, 'all' );
 
 	}
 
@@ -98,8 +97,7 @@ class Instagram_Feed_Sk_Public {
 		 */
 
 		wp_enqueue_script( 'masonry', plugin_dir_url( __FILE__ ) . 'js/masonry.pkgd.min.js', array( 'jquery' ), $this->version, true );
-		wp_enqueue_script( 'featherlight', plugin_dir_url( __FILE__ ) . 'js/featherlight.gallery.min.js', array( 'jquery' ), $this->version, true );
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/instagram-feed-sk-public.js', array( 'jquery', 'masonry','featherlight' ), $this->version, true );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/instagram-feed-sk-public.js', array( 'jquery', 'masonry'), $this->version, true );
 	}
 
 
